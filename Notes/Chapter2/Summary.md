@@ -41,7 +41,7 @@ For some problems, the computation is the same no matter how you partition the p
 
 There is one computation cost if the communication is sufficiently high, and another larger cost if the communication is too low. 
 
-![trade-off step function](./pic/trade-off step function.png)
+![trade-off step function](./pic/trade-off_step_function.png)
 
 The optimum point representing the computation cost assuming everything can be done in the main memory. And the minimum communication necessary to allow reducers to take that small amount of data. 
 
