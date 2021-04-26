@@ -31,7 +31,7 @@
 2. To finishing fast (low wall-clock time) requires a high degree of parallelism - force to cost higher. 
 3. Second trade-off: parallelism vs minimum cost. How fast you want and affordable.  
 
-![trade-off](/Users/kasiezou/Unimelb/Data-Mining/Notes/Chapter2/pic/trade-off.png)
+![trade-off](./pic/trade-off.png)
 
 ##### Reducer Size - The Hidden Variable
 
@@ -41,7 +41,7 @@ For some problems, the computation is the same no matter how you partition the p
 
 There is one computation cost if the communication is sufficiently high, and another larger cost if the communication is too low. 
 
-![trade-off step function](/Users/kasiezou/Unimelb/Data-Mining/Notes/Chapter2/pic/trade-off step function.png)
+![trade-off step function](./pic/trade-off step function.png)
 
 The optimum point representing the computation cost assuming everything can be done in the main memory. And the minimum communication necessary to allow reducers to take that small amount of data. 
 
